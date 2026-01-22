@@ -106,7 +106,7 @@ void setup() {
   // put your setup code here, to run once:
   Sys_Init();
   LCD_Init();
-  LCD_FillWindow(0, 0, 240, 240, 0x0000);
+  LCD_FillWindow(0, 0, 240, 135, 0x0000);
 }
 
 void loop() {
